@@ -1,0 +1,5 @@
+/var/spool/slurmd/job03778/slurm_script: line 7:  6179 Segmentation fault      (core dumped) ./parallel input.txt
+
+real	0m0.127s
+user	0m0.001s
+sys	0m0.000s

@@ -1,0 +1,8 @@
+Error -11: clBuildProgram
+1 Platforms found
+1 Devices found
+Max workgroup size is 1024
+
+real	0m2.260s
+user	0m0.021s
+sys	0m0.834s

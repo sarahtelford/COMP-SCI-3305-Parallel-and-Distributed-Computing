@@ -1,0 +1,21 @@
+Error -11: clBuildProgram
+1 Platforms found
+1 Devices found
+Max workgroup size is 1024
+<kernel>:9:25: error: expected ')'
+                if (i+1 !> size){ 
+                        ^
+<kernel>:9:20: note: to match this '('
+                if (i+1 !> size){ 
+                   ^
+<kernel>:21:25: error: expected ')'
+                if (i+1 !> size){ 
+                        ^
+<kernel>:21:20: note: to match this '('
+                if (i+1 !> size){ 
+                   ^
+
+
+real	0m2.218s
+user	0m0.036s
+sys	0m0.749s

@@ -1,0 +1,51 @@
+Error -11: clBuildProgram
+1 Platforms found
+1 Devices found
+Max workgroup size is 1024
+<kernel>:8:20: error: expression is not assignable
+         if (i % 2 = 0) { 
+             ~~~~~ ^
+<kernel>:9:17: error: use of undeclared identifier 'a'
+            if (a[j] > a[j+1]) {
+                ^
+<kernel>:9:24: error: use of undeclared identifier 'a'
+            if (a[j] > a[j+1]) {
+                       ^
+<kernel>:11:24: error: use of undeclared identifier 'a'
+                temp = a[j];
+                       ^
+<kernel>:12:17: error: use of undeclared identifier 'a'
+                a[j] = a[j+1];
+                ^
+<kernel>:12:24: error: use of undeclared identifier 'a'
+                a[j] = a[j+1];
+                       ^
+<kernel>:13:17: error: use of undeclared identifier 'a'
+                a[j+1] = temp;
+                ^
+<kernel>:18:19: error: expression is not assignable
+        if (i % 2 = 1){
+            ~~~~~ ^
+<kernel>:19:18: error: use of undeclared identifier 'a'
+             if (a[j] > a[j+1]) {
+                 ^
+<kernel>:19:25: error: use of undeclared identifier 'a'
+             if (a[j] > a[j+1]) {
+                        ^
+<kernel>:21:24: error: use of undeclared identifier 'a'
+                temp = a[j];
+                       ^
+<kernel>:22:17: error: use of undeclared identifier 'a'
+                a[j] = a[j+1];
+                ^
+<kernel>:22:24: error: use of undeclared identifier 'a'
+                a[j] = a[j+1];
+                       ^
+<kernel>:23:17: error: use of undeclared identifier 'a'
+                a[j+1] = temp;
+                ^
+
+
+real	0m2.198s
+user	0m0.033s
+sys	0m0.745s
